@@ -1,0 +1,256 @@
+body {
+    background-color: #f0eee3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.header .title {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+}
+
+.breaker {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+
+
+.values {
+    display:inline-flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.valGroup {
+    text-align: center;
+}
+
+.valName {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.value {
+    margin: 10px 0;
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    max-height: auto;
+}
+
+.valSpecificName {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 0;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+}
+
+.valIcon {
+    max-width: 100px;
+    max-height: auto;
+    transform: scale(1);
+    transition: transform 0.3s;
+    display: inline-block;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.valIcon:hover {
+    transform: scale(1.075);
+    transition: transform 0.3s;
+}
+
+.start {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #1b48fa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.modal {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: none;
+    width: 50%;
+}
+
+.modal h2 {
+    font-size: 2em;
+    margin-top: 0;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+}
+
+.modal p {
+    font-size: 1.2em;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+}
+
+.modal button {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #1b48fa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.notice {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+    line-height: 1.5;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.notice .legalGroup {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.overview {
+    margin-top: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #f0f0f0;
+}
+
+.overviewGroup {
+    width: 100%;
+    display: block;
+}
+
+.overview h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+}
+
+.overview h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+}
+
+.overview p {
+    font-size: 0.75em;
+    font-weight: 700;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+}
+
+.interest {
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+    line-height: 1.5;
+    font-weight: bold;
+    display: flex;
+}
+
+.overgroup {
+    margin: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: auto;
+    background-color: #f0f0f0;
+}
+
+@media (min-width: 900px) {
+    .overviewGroup {
+        width: 100%;
+        display: flex;
+    }
+    
+    .overview h2 {
+        font-size: 1.75em;
+        margin-top: 0;
+        font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+    }
+
+    .overview h3 {
+        font-size: 1.25em;
+        font-weight: 500;
+        margin-top: 20px;
+        font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+    }
+
+    .overview p {
+        font-size: 0.75em;
+        font-weight: 700;
+        font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+    }
+
+    .overview .interest {
+        font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+        line-height: 1.5;
+        font-weight: bold;
+        display: flex;
+    }
+
+    .overgroup {
+        margin: 20px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        padding: 20px;
+        width: auto;
+        background-color: #f0f0f0;
+    }
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top: 2px solid #000;
+}
+
+
+

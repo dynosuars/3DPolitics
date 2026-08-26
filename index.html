@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3D Politics</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 class="title">3D Politics</h1>
+            <div class="breaker"></div>
+            <div class="values">
+                <div class="valGroup">
+                    <h1 class="valName">Economic</h1>
+                    <div class="value">
+                        <img src="assets/images/communist.jpg" alt="Communist" class="valIcon">
+                        <div class="breaker"></div>
+                        <p class="valSpecificName">Equality</p>
+                    </div>
+                    <div class="value">
+                        <img src="assets/images/capitalism.jpg" alt="Capitalism" class="valIcon">
+                        <div class="breaker"></div>
+                        <p class="valSpecificName">Market</p>
+                    </div>
+                </div>
+                <div class="valGroup">
+                    <h1 class="valName">Politics</h1>
+                    <div class="value">
+                        <img src="assets/images/puppet.jpg" alt="Autocracy" class="valIcon">
+                        <div class="breaker"></div>
+                        <p class="valSpecificName">Authoritarian</p>
+                    </div>
+                    <div class="value">
+                        <img src="assets/images/anarchy.jpg" alt="Anarchy" class="valIcon">
+                        <div class="breaker"></div>
+                        <p class="valSpecificName">Libertarian</p>
+                    </div>
+                </div>
+                <div class="valGroup">
+                    <h1 class="valName">Social</h1>
+
+                    <div class="value">
+                        <img src="assets/images/un.jpg" alt="United Nations" class="valIcon">
+                        <div class="breaker"></div>
+                        <p class="valSpecificName">Internationalism</p>
+                    </div>
+                    <div class="value">
+                        <img src="assets/images/nazi.jpg" alt="Nazi" class="valIcon">
+                        <div class="breaker"></div>
+                        <p class="valSpecificName">Nationalism</p>
+                    </div>
+                </div>
+            </div>
+            <div class="breaker"></div>
+            <p class="note"> By clicking the button below, you agree to the simple and straightforward terms of service. If you haven't read them click <a href="#notice" onclick="readedNoted();">here</a>!</p>
+            <button class="start" onclick="startGame()">Start test!</button>
+        </div>
+        
+        <div class="overview">
+            <h2>Overview</h2>
+            <p>This is a brief overview of the political values and their associated characteristics.</p>
+            <div class="breaker"></div>
+            <div class="overviewGroup">
+                <div class="overgroup" style="background-color: #EE1C25;">
+                <div class="overValue" style="color: #dfdf01">
+                    <h3>Equality</h3>
+                    <p>You tend to pay attention to the average people on the streets. Oftentimes, you feel like the government isn't doing as desired.
+                    </p>
+                    <p class="interest">
+                        Person of interest: Karl Marx, Mao Zedong, Fidel Castro, Che Guevara, Joseph Stalin, Vladimir Lenin, Ho Chi Minh
+                    </p>
+                    <p class="interest">
+                        Countries of interest: China, Cuba, North Korea, Vietnam, Laos, Venezuela, Soviet Union
+                    </p>
+                    <p class="interest">
+                        Quotes of interest: "From each according to his ability, to each according to his needs." - Karl Marx
+                    </p>
+                    <p style="font-size: 10px; color:black">Color inspiration: Communist red</p>
+                </div>
+                <div class="breaker"></div>
+                <div class="overValue" style="color: #fff;">
+                    <h3>Market</h3>
+                    <p> You tend to favor a free market economy with minimal government intervention. You believe in the power of supply and demand to drive economic growth and innovation.</p>
+                    <p class="interest">Person of interest: Adam Smith, Milton Friedman, Friedrich Hayek, John Maynard Keynes</p>
+                    <p class="interest">Countries of interest: United States, United Kingdom, Canada, Australia, Germany, France, Japan</p>
+                    <p class="interest">Quotes of interest: "The invisible hand guides the market." - Adam Smith</p>
+                    <p style="font-size: 10px; color:black">Color inspiration: Coca-Cola</p>
+                </div>
+            </div>
+            <div class="overgroup" style="background-color: #0073ff;">
+                <div class="overValue" style="color: #e0e0e0;">
+                    <h3>Authoritarian</h3>
+                    <p> You tend to favor a strong, centralized government with significant controls. You believe that democracy and individual freedoms are less significant than order and stability.
+                    </p>
+                    <p class="interest">Person of interest: Qin Shi Huang, Julius Caesar, Napoleon Bonaparte, Adolf Hitler, Joseph Stalin</p>
+                    <p class="interest">Countries of interest: North Korea, China, Russia, Venezuela</p>
+                    <p class="interest">Quotes of interest: “Who controls the past controls the future. Who controls the present controls the past.”
+                    ― George Orwell, 1984</p>
+                    <p style="font-size: 10px; color:whitesmoke">Color inspiration: Iron</p>
+                </div>
+                <div class="breaker"></div>
+                <div class="overValue" style="color: #fff;">
+                    <h3>Libertarian</h3>
+                    <p>You tend to favor a government oriented towards individual liberty and minimal state interventions. You also believe that a government whom oppresses its citizens is inherently flawed.
+                    </p>
+                    <p class="interest">Person of interest: Linus Torvalds, John Locke, Thomas Jefferson, Ron Paul, Ayn Rand</p>
+                    <p class="interest">Countries of interest: Switzerland, New Zealand, Estonia, Iceland</p>
+                    <p class="interest">Quotes of interest: "That government is best which governs least." - Henry David Thoreau</p>
+                    <p style="font-size: 10px; color:whitesmoke">Color inspiration: Sky (As a symbol of freedom)</p>
+                </div>
+            </div>
+            <div class="overgroup" style="background-color: #5b92e5;">
+                <div class="overValue" style="color: #fff;">
+                    <h3>Internationalist</h3>
+                    <p>You tend to favor a global perspective and believe that international cooperation and diplomacy are essential for addressing global challenges.</p>
+                    <p class="interest">Person of interest: Nelson Mandela, Kofi Annan, Ban Ki-moon</p>
+                    <p class="interest">Countries (Entity) of interest: United Nations, European Union, African Union</p>
+                    <p class="interest">Quotes of interest: "We are all inhabitants of one world." - Kofi Annan</p>
+                    <p style="font-size: 10px; color:whitesmoke">Color inspiration: United Nations</p>
+                </div>
+                <div class="breaker"></div>
+                <div class="overValue" style="color: #fff;">
+                    <h3>Nationalist</h3>
+                    <p>You tend to prioritize the interests of your own nation and believe that national sovereignty and independence are crucial for the well-being of your people.</p>
+                    <p class="interest">Person of interest: Adolf Hitler, Benito Mussolinl, Mustafa Kemal Atatürk, Winston Churchill</p>
+                    <p class="interest">Countries of interest: United States, China, Russia, India, Japan</p>
+                    <p class="interest">Quotes of interest: "My country, right or wrong; if right, to be kept right; and if wrong, to be set right." - Carl Schurz</p>
+                    <p style="font-size: 10px; color:whitesmoke">Color inspiration: White (As a symbol of the KMT)</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="notice" id="notice">
+            <h2 class="noticeTitle">Notice (Please Read)</h2>
+            <div class="breaker"></div>
+            <p class="noticeText">Please read the following notices before starting:</p>
+            <div class="legalGroup">
+                <h3 class="legalTitle">Privacy</h3>
+                <p class="legalText">In the age of internet, our privacy is usually not protected. In this website (Any endpoints under the domain), I hereby declare that I will not collect or share any information regarding your political stance, beliefs, or personal preferences for any purpose other the core functionality of the website.</p>
+            </div>
+            <div class="legalGroup">
+                <h3 class="legalTitle">Liability</h3>
+                <p class="legalText">The content on this website is for informational and educational purposes, they are not ment to be used as a substitute for professional advice. The owner of this website is not liable for any damages or losses that may arise from the use of this website.</p>
+            </div>
+            <div class="legalGroup">
+                <h3 class="legalTitle">Open source</h3>
+                <p class="legalText">The code for this website is forever opened to anything of any background. Visit <a href="https://github.com/dynosuars/3DPolitics" target="_blank">GitHub</a> to view the source code and liscenes.</p>
+            </div>
+            <div class="legalGroup">
+                <h3 class="legalTitle">3rd Party links</h3>
+                <p class="legalText">This website may contain links to third-party websites. I am not responsible for the content or privacy practices of these websites.</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p class="footerText">© 2026 3D Politics. All rights reserved by <a href="https://github.com/dynosuars" target="_blank">Dynosuars</a>.</p>
+        </footer>
+    </body>
+    <script>
+        var readed = false;
+
+        function readedNoted() {
+            readed = true;
+        }
+
+        function startGame() {
+            if (!readed) {
+                let modal = document.createElement('dialog');
+                modal.id = 'modal';
+                modal.classList.add('modal');
+                modal.innerHTML = `
+                    <h2>Notice</h2>
+                    <p>You must read the notice before starting the game.</p>
+                    <p>You should be glad that you have dev that cares about efficiency, so just click <a href="#notice" onclick="closeModal();readedNoted();">here</a> to read it!</p>
+                    <button onclick="closeModal()">Close</button>
+                `;
+                document.body.appendChild(modal);
+                modal.showModal();
+            }
+        }
+
+        function closeModal() {
+            let modal = document.getElementById('modal');
+            if (modal) {
+                modal.close();
+                modal.remove();
+            }
+        }
+
+        let notice = document.getElementById('notice');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    readed = true;
+                }
+            });
+        });
+        observer.observe(notice);
+    </script>
+
+</html>
