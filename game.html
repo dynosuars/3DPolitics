@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid session...</title>
+    <link rel="stylesheet" href="styles/game.css">
+</head>
+
+<body>
+    <div class="question-container">
+        <p class="question-title">Question: <span id="question"></span> of <span id="total-questions"></span></p>
+        <div class="breaker"></div>
+        <div class="questioncontent" id="questioncontent"></div>
+        <div class="answersection" id="answershere"></div>
+        <div class="breaker"></div>
+    </div>
+    <div class="footer-container">
+        <button onclick="prev()" class="nav-button prev-btn">Previous</button>
+        <button onclick="next()" class="nav-button next-btn" id="next-btn">Next</button>
+    </div>
+</body>
+
+<script src="scripts/game.js"></script>
+<script>
+    var vectors = [];
+    var index = null;
+    
+    document.addEventListener('DOMContentLoaded', async () => {
+        await init();
+        current = 60;
+        renderQuestion();
+    });
+
+    function renderQuestion() {
+        document.getElementById('question').textContent = current;
+        document.getElementById('total-questions').textContent = questions.length;
+        
+        const questionContent = document.getElementById('questioncontent');
+        questionContent.innerHTML = '';
+        const p = document.createElement('p');
+        p.textContent = questions[current].question;
+        questionContent.appendChild(p);
+        const answerSection = document.getElementById('answershere');
+        answerSection.innerHTML = '';
+
+        questions[current].answers.forEach((answer, indx) => {
+            const answerElement = document.createElement('button');
+            answerElement.className = 'option-btn'; 
+            answerElement.textContent = answer.answer;
+
+
+
+            answerElement.addEventListener('click', () => {
+                const siblings = answerSection.querySelectorAll('.option-btn');
+                siblings.forEach(btn => btn.classList.remove('selected'));
+                answerElement.classList.add('selected');
+                index = indx;
+            });
+
+            answerSection.appendChild(answerElement);
+        });
+    }
+
+    function next() {
+        if (index === null || index === undefined) {
+            alert("Please select an answer before proceeding.");
+            return;
+        }
+
+        vectors.push(questions[current].answers[index].vector);
+        index = null;
+
+        if (current === questions.length - 1) {
+            const nextBtn = document.getElementById('next-btn');
+            if (nextBtn) {
+            nextBtn.textContent = 'Finish';
+            nextBtn.style.backgroundColor = '#00b894';
+            }
+            finish(); 
+        } else {
+            current++;
+            renderQuestion();
+        }
+    }
+
+
+
+    function prev() {
+        if (current > 0) {
+            current--;
+            renderQuestion();
+            vectors.pop();
+        } else {
+            alert("This is the first question.");
+        }
+    }
+
+    function finish() {
+        localStorage.setItem('vectors', JSON.stringify(vectors));
+        window.location.href = 'result.html';
+    }
+</script>
+
+    
+</html>

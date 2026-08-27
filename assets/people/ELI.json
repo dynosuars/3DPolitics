@@ -1,0 +1,36 @@
+{
+    "Ideology": "Neo-Liberalism",
+    "vectors": [
+        {
+            "name": "Greta Thunberg",
+            "image": "assets/people/greta.jpg",
+            "comments": "Swedish environmental activist known for her efforts to combat climate change. She gained international recognition for her school strike for climate movement, inspiring millions of young people worldwide to take action against global warming. Thunberg's activism has led to increased awareness and policy discussions on environmental issues.",
+            "vectors": [10, -45, 60]
+        },
+        {
+            "name": "Malala Yousafzai",
+            "image": "assets/people/malala.jpg",
+            "comments": "Pakistani activist for female education and the youngest Nobel Prize laureate. She is known for her advocacy of girls' education in her native Swat Valley in Khyber Pakhtunkhwa, northwest Pakistan, where the local Taliban had at times banned girls from attending school. Yousafzai's activism has made her a global symbol of the fight for girls' education and women's rights.",
+            "vectors": [15, -40, 55]
+        },
+        {
+            "name": "Barack Obama",
+            "image": "assets/people/obama.jpg",
+            "comments": "44th President of the United States, serving from 2009 to 2017. He was the first African American to hold the office and is known for his policies on healthcare reform, economic recovery, and foreign relations. Obama's leadership style and oratory skills have made him a prominent figure in global politics, and he continues to influence public discourse on social and political issues.",
+            "vectors": [25, -30, 50]
+        },
+        {
+            "name" : "Machael Jackson",
+            "image" : "assets/people/michael.jpg",
+            "comments" : "American singer, songwriter, and dancer, widely regarded as one of the most significant cultural figures of the 20th century. Known as the 'King of Pop,' Jackson's contributions to music, dance, and fashion made him a global icon. His innovative music videos and performances have left a lasting impact on the entertainment industry, and he remains a beloved figure in popular culture.",
+            "vectors" : [30, -30, 60]
+        },
+        {
+            "name" : "Joe Biden",
+            "image" : "assets/people/biden.jpg",
+            "comments" : "46th President of the United States, serving since January 20, 2021. He previously served as Vice President from 2009 to 2017 under President Barack Obama. Biden's presidency has focused on addressing the COVID-19 pandemic, economic recovery, and climate change, as well as promoting unity and bipartisanship in American politics. His long career in public service has made him a prominent figure in U.S. politics.",
+            "vectors" : [20, -25, 45]
+        }
+        
+    ]  
+}

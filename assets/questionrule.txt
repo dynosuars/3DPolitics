@@ -1,0 +1,15 @@
+Here is the format for questions if you want to create some.
+
+{
+    "question": "<insert_text>",
+    "answers": [
+        {
+            "answer": "I support it",
+            "vector": [ECONOMICS, POLITICS, SOCIAL]
+        }
+    ]
+}
+
+ECONOMICS - POSITIVE IS LEANING TOWARDS EQUALITY, NEGATIVE IS LEANING TOWARDS MARKET
+POLITICS - POSITIVE IS LEANING TOWARDS AUTHORITARIAN, NEGATIVE IS LEANING TOWARDS LIBERTARIAN
+SOCIAL - POSITIVE IS LEANING TOWARDS INTERNATIONALISM, NEGATIVE IS LEANING TOWARDS NATIONALISM

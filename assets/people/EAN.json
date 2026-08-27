@@ -1,0 +1,46 @@
+{
+    "vectors": [
+        {
+            "name": "Mao Zedong",
+            "image": "assets/people/mao.jpg",
+            "comments": "Chinese communist revolutionary and founding father of the People's Republic of China. He led the Chinese Communist Party to victory in the Chinese Civil War and implemented policies that transformed China into a socialist state. Mao's political theories, military strategies, and policies are collectively known as Maoism.",
+            "vectors": [90, 20, -30]
+        },
+        {
+            "name": "Ho Chi Minh",
+            "image": "assets/people/hochiminh.jpg",
+            "comments": "Vietnamese revolutionary leader and statesman. He was a key figure in the foundation of the Democratic Republic of Vietnam and led the Viet Minh independence movement against French colonial rule. Ho Chi Minh's leadership and ideology were instrumental in the struggle for Vietnamese independence and the establishment of a socialist state.",
+            "vectors": [80, 30, -20]
+        },
+        {
+            "name": "Kim Il-sung",
+            "image": "assets/people/kimilsung.jpg",
+            "comments": "North Korean revolutionary and politician. He was the founding leader of North Korea and established a centralized, authoritarian regime based on the principles of Juche, or self-reliance. Kim Il-sung's leadership and ideology have had a lasting impact on North Korean politics and society.",
+            "vectors": [80, 60, -40]    
+        },
+        {
+            "name": "Fidel Castro",
+            "image": "assets/people/castro.jpg",
+            "comments": "Cuban revolutionary and politician. He was a key figure in the Cuban Revolution and served as the Prime Minister and later President of Cuba. Castro's leadership transformed Cuba into a one-party socialist state, and his policies had significant social and economic impacts on the country. He was a prominent figure in the Cold War era and played a major role in shaping Latin American politics.",
+            "vectors": [70, 40, -30]
+        },
+        {
+            "name": "Franklin D. Roosevelt",
+            "image": "assets/people/fdr.jpg",
+            "comments": "32nd President of the United States, serving from 1933 to 1945. He led the country through the Great Depression and World War II, implementing the New Deal policies to promote economic recovery and social reform. Roosevelt's leadership and vision helped shape modern American liberalism and had a lasting impact on the nation's political landscape.",
+            "vectors": [20, 10, -45]
+        },
+        {
+            "name": "Xi Jinping",
+            "image": "assets/people/xijinping.jpg",
+            "comments": "Chinese politician and General Secretary of the Communist Party of China. He has been the paramount leader of China since 2012 and has implemented policies aimed at consolidating power, promoting economic development, and asserting China's influence on the global stage. Xi's leadership has been marked by a focus on party discipline, anti-corruption campaigns, and the promotion of Chinese nationalism.",
+            "vectors": [75, 55, -35]
+        },
+        {
+            "name": "Joseph Stalin",
+            "image": "assets/people/stalin.jpg",
+            "comments": "Soviet revolutionary and politician. He was the leader of the Soviet Union from the mid-1920s until his death in 1953. Stalin's policies, including collectivization and industrialization, transformed the Soviet Union into a major world power but also led to widespread repression and human suffering. His leadership style and political strategies have been widely studied and debated.",
+            "vectors": [90, 70, -65]
+        }
+    ]
+}

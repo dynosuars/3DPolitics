@@ -1,0 +1,489 @@
+{
+  "questions": [
+    {
+      "question": "How should a country approach international organizations such as the United Nations?",
+      "answers": [
+        {
+          "answer": "Avoid them whenever possible; national governments should make their own decisions.",
+          "vector": [0, 20, -85]
+        },
+        {
+          "answer": "Participate when cooperation provides a clear national benefit.",
+          "vector": [0, 10, -40]
+        },
+        {
+          "answer": "Participate actively while retaining national independence.",
+          "vector": [0, 0, 10]
+        },
+        {
+          "answer": "Give international organizations greater authority to solve problems crossing national borders.",
+          "vector": [0, 20, 55]
+        },
+        {
+          "answer": "Countries should increasingly share political authority through international institutions.",
+          "vector": [0, 30, 90]
+        }
+      ]
+    },
+    {
+      "question": "A country is experiencing a large influx of immigrants. What should its response be?",
+      "answers": [
+        {
+          "answer": "Significantly reduce immigration and prioritize citizens.",
+          "vector": [10, 30, -80]
+        },
+        {
+          "answer": "Maintain controlled immigration based on national economic needs.",
+          "vector": [5, 15, -45]
+        },
+        {
+          "answer": "Accept immigration while maintaining reasonable border controls.",
+          "vector": [0, 5, 10]
+        },
+        {
+          "answer": "Make immigration relatively accessible to people from other countries.",
+          "vector": [0, 0, 55]
+        },
+        {
+          "answer": "Borders should play a minimal role in determining where people can live.",
+          "vector": [0, -10, 90]
+        }
+      ]
+    },
+    {
+      "question": "How important should preserving a country's traditional culture be?",
+      "answers": [
+        {
+          "answer": "Extremely important; national culture should be actively protected.",
+          "vector": [0, 20, -90]
+        },
+        {
+          "answer": "Important, although cultural change is unavoidable.",
+          "vector": [0, 10, -50]
+        },
+        {
+          "answer": "Tradition should coexist with influences from other cultures.",
+          "vector": [0, 0, 10]
+        },
+        {
+          "answer": "Cultural exchange generally benefits society.",
+          "vector": [0, 0, 55]
+        },
+        {
+          "answer": "Cultures should freely mix and evolve beyond national boundaries.",
+          "vector": [0, -10, 90]
+        }
+      ]
+    },
+    {
+      "question": "A foreign country experiences a major natural disaster. What responsibility does your country have to help?",
+      "answers": [
+        {
+          "answer": "Very little; the government should focus on its own population.",
+          "vector": [10, 20, -75]
+        },
+        {
+          "answer": "Help only when doing so does not significantly affect domestic priorities.",
+          "vector": [0, 10, -35]
+        },
+        {
+          "answer": "Provide humanitarian assistance when reasonably possible.",
+          "vector": [0, 0, 25]
+        },
+        {
+          "answer": "International humanitarian aid should be a major government responsibility.",
+          "vector": [10, 10, 65]
+        }
+      ]
+    },
+    {
+      "question": "Should citizens of different countries have similar rights when living and working abroad?",
+      "answers": [
+        {
+          "answer": "No. Citizens should primarily receive rights and privileges from their own country.",
+          "vector": [0, 25, -75]
+        },
+        {
+          "answer": "Foreign residents should receive basic protections but fewer benefits.",
+          "vector": [0, 15, -35]
+        },
+        {
+          "answer": "Most basic rights should apply regardless of nationality.",
+          "vector": [0, 0, 35]
+        },
+        {
+          "answer": "Nationality should have little influence on a person's legal rights.",
+          "vector": [0, -10, 80]
+        }
+      ]
+    },
+    {
+      "question": "A country wants to leave a major international treaty because it believes the treaty limits its freedom of action.",
+      "answers": [
+        {
+          "answer": "Leave immediately; national sovereignty should take priority.",
+          "vector": [0, 35, -90]
+        },
+        {
+          "answer": "Renegotiate the treaty before considering withdrawal.",
+          "vector": [0, 20, -45]
+        },
+        {
+          "answer": "Remain in the treaty unless the costs become unreasonable.",
+          "vector": [0, 5, 20]
+        },
+        {
+          "answer": "International agreements should generally be respected even when inconvenient.",
+          "vector": [0, 10, 60]
+        },
+        {
+          "answer": "International commitments should take priority over short-term national interests.",
+          "vector": [0, 20, 90]
+        }
+      ]
+    },
+    {
+      "question": "How should a country treat people who identify strongly with another culture while living there?",
+      "answers": [
+        {
+          "answer": "They should be expected to adopt the country's dominant cultural identity.",
+          "vector": [0, 25, -75]
+        },
+        {
+          "answer": "They should integrate into society while retaining some cultural traditions.",
+          "vector": [0, 15, -35]
+        },
+        {
+          "answer": "People should be free to maintain their own cultural identity.",
+          "vector": [0, 0, 35]
+        },
+        {
+          "answer": "Multiple cultural identities should be considered equally legitimate.",
+          "vector": [0, -5, 70]
+        }
+      ]
+    },
+    {
+      "question": "Should countries coordinate their response to global problems such as climate change?",
+      "answers": [
+        {
+          "answer": "Each country should decide its own response independently.",
+          "vector": [-10, 20, -70]
+        },
+        {
+          "answer": "Countries should cooperate voluntarily when their interests align.",
+          "vector": [0, 10, -30]
+        },
+        {
+          "answer": "International coordination is useful for problems that cross borders.",
+          "vector": [0, 0, 30]
+        },
+        {
+          "answer": "Countries should accept significant international obligations to address global problems.",
+          "vector": [10, 15, 70]
+        }
+      ]
+    },
+    {
+      "question": "How should a country approach international trade?",
+      "answers": [
+        {
+          "answer": "Protect domestic industries even if this reduces international trade.",
+          "vector": [55, 10, -70]
+        },
+        {
+          "answer": "Trade internationally, but maintain protections for strategically important industries.",
+          "vector": [25, 10, -35]
+        },
+        {
+          "answer": "Encourage international trade while maintaining reasonable domestic safeguards.",
+          "vector": [-20, 0, 25]
+        },
+        {
+          "answer": "Minimize barriers to trade between countries.",
+          "vector": [-45, -5, 65]
+        },
+        {
+          "answer": "A highly interconnected global economy should be encouraged.",
+          "vector": [-60, 0, 90]
+        }
+      ]
+    },
+    {
+      "question": "Should a country allow dual citizenship?",
+      "answers": [
+        {
+          "answer": "No. Citizenship should represent exclusive national allegiance.",
+          "vector": [0, 30, -80]
+        },
+        {
+          "answer": "Only allow it under exceptional circumstances.",
+          "vector": [0, 20, -45]
+        },
+        {
+          "answer": "Allow it under normal circumstances.",
+          "vector": [0, 0, 35]
+        },
+        {
+          "answer": "People should generally be able to maintain citizenship in multiple countries.",
+          "vector": [0, -10, 75]
+        }
+      ]
+    },
+    {
+      "question": "A foreign language becomes increasingly common within a country. How should the government respond?",
+      "answers": [
+        {
+          "answer": "Strongly promote the national language and discourage replacement of it.",
+          "vector": [0, 25, -85]
+        },
+        {
+          "answer": "Promote the national language while allowing other languages in private life.",
+          "vector": [0, 10, -45]
+        },
+        {
+          "answer": "Provide services in multiple languages when practical.",
+          "vector": [0, 0, 35]
+        },
+        {
+          "answer": "Government services should accommodate linguistic diversity extensively.",
+          "vector": [0, -5, 70]
+        }
+      ]
+    },
+    {
+      "question": "Should countries be willing to accept refugees from conflicts occurring elsewhere?",
+      "answers": [
+        {
+          "answer": "Only in very limited circumstances; domestic stability comes first.",
+          "vector": [0, 25, -80]
+        },
+        {
+          "answer": "Accept a limited number based on available resources.",
+          "vector": [0, 15, -40]
+        },
+        {
+          "answer": "Accept refugees when there is a clear humanitarian need.",
+          "vector": [0, 0, 35]
+        },
+        {
+          "answer": "Countries should share responsibility for accepting displaced people.",
+          "vector": [5, 10, 70]
+        },
+        {
+          "answer": "People fleeing persecution should generally be able to seek safety across borders.",
+          "vector": [0, -10, 90]
+        }
+      ]
+    },
+    {
+      "question": "How much influence should foreign cultures have on a country's entertainment and media?",
+      "answers": [
+        {
+          "answer": "Very little; domestic culture should dominate.",
+          "vector": [0, 20, -75]
+        },
+        {
+          "answer": "Foreign media is acceptable but domestic media should receive preference.",
+          "vector": [0, 10, -35]
+        },
+        {
+          "answer": "There should be a healthy mixture of domestic and foreign media.",
+          "vector": [0, 0, 30]
+        },
+        {
+          "answer": "Foreign cultural influence is generally beneficial.",
+          "vector": [0, -5, 65]
+        },
+        {
+          "answer": "Media should have essentially no national boundaries.",
+          "vector": [0, -10, 90]
+        }
+      ]
+    },
+    {
+      "question": "Should a country participate in international military alliances?",
+      "answers": [
+        {
+          "answer": "No; military commitments should remain entirely national.",
+          "vector": [0, 30, -75]
+        },
+        {
+          "answer": "Only participate when there is a direct national security benefit.",
+          "vector": [0, 20, -40]
+        },
+        {
+          "answer": "Maintain alliances primarily for mutual defense.",
+          "vector": [0, 5, 20]
+        },
+        {
+          "answer": "Strong international military cooperation improves global stability.",
+          "vector": [0, 15, 65]
+        }
+      ]
+    },
+    {
+      "question": "A country's citizens increasingly identify with both their nation and a broader international community. How should this be viewed?",
+      "answers": [
+        {
+          "answer": "National identity should remain the primary identity.",
+          "vector": [0, 20, -80]
+        },
+        {
+          "answer": "International identity is acceptable as long as national identity remains stronger.",
+          "vector": [0, 10, -40]
+        },
+        {
+          "answer": "Both identities can coexist without conflict.",
+          "vector": [0, 0, 30]
+        },
+        {
+          "answer": "International identity should become increasingly important.",
+          "vector": [0, 0, 65]
+        },
+        {
+          "answer": "National borders should have little influence over people's sense of identity.",
+          "vector": [0, -10, 90]
+        }
+      ]
+    },
+    {
+      "question": "How should governments respond when another country criticizes their domestic policies?",
+      "answers": [
+        {
+          "answer": "Reject the criticism as interference in domestic affairs.",
+          "vector": [0, 30, -75]
+        },
+        {
+          "answer": "Listen to the criticism but make decisions independently.",
+          "vector": [0, 15, -35]
+        },
+        {
+          "answer": "Consider foreign criticism alongside domestic perspectives.",
+          "vector": [0, 0, 25]
+        },
+        {
+          "answer": "International perspectives can provide valuable guidance.",
+          "vector": [0, 0, 60]
+        }
+      ]
+    },
+    {
+      "question": "Should wealthy countries have an obligation to assist poorer countries?",
+      "answers": [
+        {
+          "answer": "No. Each country should primarily be responsible for itself.",
+          "vector": [-20, 20, -80]
+        },
+        {
+          "answer": "Aid should be voluntary and primarily privately funded.",
+          "vector": [-35, 5, -45]
+        },
+        {
+          "answer": "Governments should provide humanitarian assistance when necessary.",
+          "vector": [15, 5, 30]
+        },
+        {
+          "answer": "Wealthier countries should contribute significantly to international development.",
+          "vector": [35, 15, 70]
+        }
+      ]
+    },
+    {
+      "question": "How should national borders be viewed in the modern world?",
+      "answers": [
+        {
+          "answer": "Borders are fundamental to national sovereignty and identity.",
+          "vector": [0, 30, -90]
+        },
+        {
+          "answer": "Borders are necessary but should allow reasonable movement.",
+          "vector": [0, 10, -35]
+        },
+        {
+          "answer": "Borders should remain while international movement becomes easier.",
+          "vector": [0, 0, 35]
+        },
+        {
+          "answer": "Borders should impose relatively few restrictions on peaceful movement.",
+          "vector": [0, -10, 70]
+        },
+        {
+          "answer": "The long-term goal should be a world where national borders have minimal significance.",
+          "vector": [0, -15, 95]
+        }
+      ]
+    },
+    {
+      "question": "A foreign company purchases a major domestic cultural institution. How should this be treated?",
+      "answers": [
+        {
+          "answer": "Prevent the purchase if it threatens national cultural identity.",
+          "vector": [45, 30, -75]
+        },
+        {
+          "answer": "Review the purchase carefully and restrict it if necessary.",
+          "vector": [25, 20, -40]
+        },
+        {
+          "answer": "Allow it as long as ordinary laws are followed.",
+          "vector": [-10, 0, 25]
+        },
+        {
+          "answer": "Foreign ownership can bring useful international investment and cultural exchange.",
+          "vector": [-30, 0, 65]
+        }
+      ]
+    },
+    {
+      "question": "Should countries attempt to preserve distinct national identities in an increasingly globalized world?",
+      "answers": [
+        {
+          "answer": "Yes. Preserving distinct national identities is essential.",
+          "vector": [0, 25, -90]
+        },
+        {
+          "answer": "Yes, although some cultural blending is inevitable.",
+          "vector": [0, 15, -50]
+        },
+        {
+          "answer": "National and international identities can coexist.",
+          "vector": [0, 0, 25]
+        },
+        {
+          "answer": "Cultural blending is generally a positive consequence of globalization.",
+          "vector": [0, -5, 65]
+        },
+        {
+          "answer": "Humanity should increasingly view itself as one interconnected society rather than separate nations.",
+          "vector": [0, -15, 95]
+        }
+      ]
+    },
+    {
+      "question": "When a global crisis affects many countries, who should have the strongest role in coordinating the response?",
+      "answers": [
+        {
+          "answer": "Individual national governments should coordinate independently.",
+          "vector": [0, 25, -80]
+        },
+        {
+          "answer": "National governments should cooperate voluntarily.",
+          "vector": [0, 10, -40]
+        },
+        {
+          "answer": "Countries should coordinate through temporary international agreements.",
+          "vector": [0, 5, 25]
+        },
+        {
+          "answer": "Permanent international institutions should coordinate major global responses.",
+          "vector": [0, 20, 70]
+        },
+        {
+          "answer": "Global crises should increasingly be managed through shared international governance.",
+          "vector": [0, 30, 95]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "file" : [
+        "EAI.json",
+        "EAN.json",
+        "ELI.json",
+        "ELN.json",
+        "MAI.json",
+        "MAN.json",
+        "NAI.json",
+        "NAN.json"
+    ]
+}

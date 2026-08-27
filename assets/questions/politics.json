@@ -1,0 +1,468 @@
+{
+  "questions": [
+    {
+      "question": "During a major national emergency, how much additional power should the government receive?",
+      "answers": [
+        {
+          "answer": "Almost none. Individual rights should remain protected even during a crisis.",
+          "vector": [-45, -85, 35]
+        },
+        {
+          "answer": "Some temporary powers are acceptable, but they should require strict oversight.",
+          "vector": [15, -45, 20]
+        },
+        {
+          "answer": "The government should receive whatever powers are reasonably necessary.",
+          "vector": [25, 25, -10]
+        },
+        {
+          "answer": "Strong centralized authority is justified when the country faces serious danger.",
+          "vector": [35, 65, -45]
+        },
+        {
+          "answer": "The government should be able to take extensive emergency measures until the threat is gone.",
+          "vector": [55, 90, -65]
+        }
+      ]
+    },
+    {
+      "question": "How much freedom should people have to make decisions about their own private lives?",
+      "answers": [
+        {
+          "answer": "Nearly complete freedom, provided they are not directly harming others.",
+          "vector": [-55, -90, 45]
+        },
+        {
+          "answer": "People should be free in most matters, with limited government intervention.",
+          "vector": [-25, -55, 30]
+        },
+        {
+          "answer": "Some private behavior should be regulated when it creates significant social consequences.",
+          "vector": [20, 20, -15]
+        },
+        {
+          "answer": "Government should discourage behavior considered harmful to society.",
+          "vector": [30, 55, -35]
+        },
+        {
+          "answer": "Maintaining social order justifies substantial restrictions on private behavior.",
+          "vector": [45, 85, -55]
+        }
+      ]
+    },
+    {
+      "question": "What should happen when a peaceful political group strongly disagrees with the government?",
+      "answers": [
+        {
+          "answer": "It should have almost unrestricted freedom to organize and criticize the government.",
+          "vector": [-30, -90, 55]
+        },
+        {
+          "answer": "It should be protected unless it directly threatens someone's safety.",
+          "vector": [5, -55, 35]
+        },
+        {
+          "answer": "The government may monitor groups that appear unusually dangerous.",
+          "vector": [10, 25, 0]
+        },
+        {
+          "answer": "Groups threatening national stability should face significant restrictions.",
+          "vector": [35, 65, -45]
+        }
+      ]
+    },
+    {
+      "question": "Should governments be allowed to conduct widespread digital surveillance to prevent crime?",
+      "answers": [
+        {
+          "answer": "No. Government surveillance should require individualized suspicion and judicial approval.",
+          "vector": [-40, -85, 40]
+        },
+        {
+          "answer": "Targeted surveillance is acceptable when there is strong evidence of wrongdoing.",
+          "vector": [10, -45, 25]
+        },
+        {
+          "answer": "Limited mass surveillance can be justified for serious threats.",
+          "vector": [20, 20, -10]
+        },
+        {
+          "answer": "Extensive surveillance is acceptable if it substantially improves public safety.",
+          "vector": [35, 65, -40]
+        },
+        {
+          "answer": "Security should take priority over privacy when serious threats are involved.",
+          "vector": [50, 90, -60]
+        }
+      ]
+    },
+    {
+      "question": "How much authority should local governments have compared with the national government?",
+      "answers": [
+        {
+          "answer": "Local communities should control most matters affecting their own residents.",
+          "vector": [-30, -80, -45]
+        },
+        {
+          "answer": "Local governments should have substantial autonomy within national law.",
+          "vector": [5, -50, -25]
+        },
+        {
+          "answer": "Authority should be divided fairly evenly between national and local governments.",
+          "vector": [10, 0, 0]
+        },
+        {
+          "answer": "National standards should override local decisions in important areas.",
+          "vector": [30, 50, 15]
+        },
+        {
+          "answer": "A unified national system is preferable to significant regional differences.",
+          "vector": [45, 85, 35]
+        }
+      ]
+    },
+    {
+      "question": "How should the government respond to widespread political protests?",
+      "answers": [
+        {
+          "answer": "Peaceful protests should almost never be restricted.",
+          "vector": [-35, -90, 55]
+        },
+        {
+          "answer": "Protests should be protected unless they directly interfere with other people's rights.",
+          "vector": [5, -55, 35]
+        },
+        {
+          "answer": "Reasonable restrictions on location and timing are acceptable.",
+          "vector": [15, 10, 5]
+        },
+        {
+          "answer": "Protests causing major disruption should be restricted.",
+          "vector": [30, 55, -20]
+        },
+        {
+          "answer": "The government should have broad authority to prevent protests from destabilizing society.",
+          "vector": [45, 85, -45]
+        }
+      ]
+    },
+    {
+      "question": "Should voting be legally mandatory?",
+      "answers": [
+        {
+          "answer": "No. Choosing not to participate should be an individual right.",
+          "vector": [-25, -75, 25]
+        },
+        {
+          "answer": "Voting should be strongly encouraged but remain voluntary.",
+          "vector": [0, -40, 20]
+        },
+        {
+          "answer": "Mandatory voting could be justified to ensure broad participation.",
+          "vector": [15, 30, 10]
+        },
+        {
+          "answer": "Citizens have a civic duty to participate in elections.",
+          "vector": [25, 65, -10]
+        }
+      ]
+    },
+    {
+      "question": "When should the government be allowed to restrict freedom of speech?",
+      "answers": [
+        {
+          "answer": "Almost never, except for direct and immediate threats.",
+          "vector": [-45, -90, 50]
+        },
+        {
+          "answer": "Only clearly harmful conduct such as direct incitement should be restricted.",
+          "vector": [0, -55, 35]
+        },
+        {
+          "answer": "Some misinformation should be restricted when it creates serious public harm.",
+          "vector": [20, 25, 30]
+        },
+        {
+          "answer": "Speech that threatens social stability should be subject to government restrictions.",
+          "vector": [35, 60, -25]
+        },
+        {
+          "answer": "The government should have broad authority to control dangerous information.",
+          "vector": [45, 90, -55]
+        }
+      ]
+    },
+    {
+      "question": "How should the government handle laws that many citizens consider unjust?",
+      "answers": [
+        {
+          "answer": "People should have broad freedom to peacefully refuse to comply.",
+          "vector": [-35, -85, 40]
+        },
+        {
+          "answer": "Citizens should challenge the law through courts, elections, and protest.",
+          "vector": [0, -45, 25]
+        },
+        {
+          "answer": "The law should generally remain in effect until legally changed.",
+          "vector": [15, 20, -10]
+        },
+        {
+          "answer": "Citizens should generally obey laws even when they disagree with them.",
+          "vector": [25, 60, -25]
+        },
+        {
+          "answer": "Maintaining legal order should take priority over individual resistance.",
+          "vector": [40, 85, -45]
+        }
+      ]
+    },
+    {
+      "question": "Should governments be able to require citizens to perform national service?",
+      "answers": [
+        {
+          "answer": "No. Compulsory service violates individual freedom.",
+          "vector": [-30, -90, 15]
+        },
+        {
+          "answer": "Service should be voluntary, with incentives for participation.",
+          "vector": [-10, -50, 10]
+        },
+        {
+          "answer": "Mandatory service may be justified during severe national emergencies.",
+          "vector": [20, 30, -20]
+        },
+        {
+          "answer": "Citizens have a general obligation to contribute to national defense or public service.",
+          "vector": [35, 70, -45]
+        }
+      ]
+    },
+    {
+      "question": "Who should have the final authority when national and regional governments disagree?",
+      "answers": [
+        {
+          "answer": "Regional governments should usually retain control over their own affairs.",
+          "vector": [-20, -75, -40]
+        },
+        {
+          "answer": "Courts should determine which level of government has authority.",
+          "vector": [10, -25, 15]
+        },
+        {
+          "answer": "National law should generally take precedence.",
+          "vector": [25, 40, 5]
+        },
+        {
+          "answer": "The national government should have decisive authority over major disputes.",
+          "vector": [40, 75, 20]
+        }
+      ]
+    },
+    {
+      "question": "Should the government be allowed to restrict public gatherings during severe unrest?",
+      "answers": [
+        {
+          "answer": "No. Peaceful assembly should remain protected regardless of political circumstances.",
+          "vector": [-35, -90, 45]
+        },
+        {
+          "answer": "Restrictions should require evidence of an immediate threat.",
+          "vector": [5, -50, 25]
+        },
+        {
+          "answer": "Temporary restrictions can be justified when violence becomes likely.",
+          "vector": [15, 25, -5]
+        },
+        {
+          "answer": "Authorities should be able to prohibit gatherings that threaten public order.",
+          "vector": [35, 65, -30]
+        }
+      ]
+    },
+    {
+      "question": "How much independent authority should an elected leader have?",
+      "answers": [
+        {
+          "answer": "Very little. Major decisions should require legislative approval.",
+          "vector": [-20, -70, 25]
+        },
+        {
+          "answer": "The leader should have limited discretion for routine decisions.",
+          "vector": [5, -35, 15]
+        },
+        {
+          "answer": "The leader should have moderate freedom to act quickly when necessary.",
+          "vector": [20, 20, -5]
+        },
+        {
+          "answer": "Strong executive authority allows government to respond more efficiently.",
+          "vector": [35, 60, -25]
+        },
+        {
+          "answer": "A powerful executive is preferable to slow political institutions.",
+          "vector": [50, 90, -45]
+        }
+      ]
+    },
+    {
+      "question": "How should police powers be balanced against individual privacy?",
+      "answers": [
+        {
+          "answer": "Privacy should be strongly protected, even if investigations become more difficult.",
+          "vector": [-35, -85, 35]
+        },
+        {
+          "answer": "Police should require strong evidence before conducting intrusive searches.",
+          "vector": [5, -50, 25]
+        },
+        {
+          "answer": "Police should receive broader powers when investigating serious crimes.",
+          "vector": [20, 30, -10]
+        },
+        {
+          "answer": "Public safety should generally outweigh privacy concerns.",
+          "vector": [35, 65, -35]
+        },
+        {
+          "answer": "Law enforcement should have extensive investigative powers to maintain order.",
+          "vector": [45, 90, -55]
+        }
+      ]
+    },
+    {
+      "question": "Should citizens be allowed to openly criticize government institutions?",
+      "answers": [
+        {
+          "answer": "Yes, even harsh criticism should be protected.",
+          "vector": [-30, -90, 45]
+        },
+        {
+          "answer": "Yes, provided the criticism does not directly threaten individuals.",
+          "vector": [5, -55, 30]
+        },
+        {
+          "answer": "Criticism is acceptable, but officials should be able to restrict deliberately destabilizing material.",
+          "vector": [20, 25, 5]
+        },
+        {
+          "answer": "Public criticism should be limited when it seriously undermines government authority.",
+          "vector": [30, 65, -35]
+        }
+      ]
+    },
+    {
+      "question": "What should happen when a government believes someone is a serious security threat but lacks enough evidence for a criminal conviction?",
+      "answers": [
+        {
+          "answer": "The government should not restrict the person without sufficient evidence.",
+          "vector": [-40, -90, 35]
+        },
+        {
+          "answer": "Authorities may monitor the person but should preserve their normal legal rights.",
+          "vector": [0, -50, 25]
+        },
+        {
+          "answer": "Limited preventive measures may be justified with judicial oversight.",
+          "vector": [20, 25, -5]
+        },
+        {
+          "answer": "Authorities should be able to restrict the person's freedom when credible security concerns exist.",
+          "vector": [40, 75, -40]
+        }
+      ]
+    },
+    {
+      "question": "How should governments respond to civil disobedience?",
+      "answers": [
+        {
+          "answer": "Civil disobedience can be legitimate when people oppose unjust laws.",
+          "vector": [-30, -85, 40]
+        },
+        {
+          "answer": "Peaceful civil disobedience should generally receive lenient treatment.",
+          "vector": [0, -50, 30]
+        },
+        {
+          "answer": "Civil disobedience should be tolerated only when it causes minimal disruption.",
+          "vector": [15, 20, -10]
+        },
+        {
+          "answer": "Breaking laws for political purposes should generally result in normal penalties.",
+          "vector": [25, 60, -30]
+        },
+        {
+          "answer": "Government should respond firmly to organized civil disobedience to preserve authority.",
+          "vector": [40, 85, -50]
+        }
+      ]
+    },
+    {
+      "question": "During a severe epidemic, how much authority should the government have to restrict individual behavior?",
+      "answers": [
+        {
+          "answer": "Restrictions should be voluntary whenever reasonably possible.",
+          "vector": [-30, -80, 35]
+        },
+        {
+          "answer": "Mandatory restrictions should require strong evidence and strict time limits.",
+          "vector": [10, -40, 25]
+        },
+        {
+          "answer": "Temporary restrictions are justified when necessary to prevent widespread harm.",
+          "vector": [20, 25, 5]
+        },
+        {
+          "answer": "Governments should have broad authority to impose restrictions during serious outbreaks.",
+          "vector": [35, 70, -25]
+        }
+      ]
+    },
+    {
+      "question": "How much should government influence people's behavior through laws and regulations?",
+      "answers": [
+        {
+          "answer": "Government should only prevent direct harm to other people.",
+          "vector": [-45, -90, 35]
+        },
+        {
+          "answer": "Government should establish basic rules while leaving most personal choices alone.",
+          "vector": [-10, -50, 20]
+        },
+        {
+          "answer": "Government should regulate behavior when there are substantial public consequences.",
+          "vector": [20, 20, -5]
+        },
+        {
+          "answer": "Government should actively encourage behavior that benefits society.",
+          "vector": [35, 60, -30]
+        },
+        {
+          "answer": "Government should have a strong role in shaping citizens' behavior and maintaining social order.",
+          "vector": [50, 90, -50]
+        }
+      ]
+    },
+    {
+      "question": "If democratic institutions completely fail, how much power should citizens have to resist their government?",
+      "answers": [
+        {
+          "answer": "Citizens should retain a broad right to resist an oppressive government.",
+          "vector": [-40, -90, 35]
+        },
+        {
+          "answer": "Resistance should primarily remain peaceful and organized.",
+          "vector": [-10, -55, 25]
+        },
+        {
+          "answer": "Government stability should still be preserved whenever possible.",
+          "vector": [20, 25, -20]
+        },
+        {
+          "answer": "Strong authority is preferable to political instability even during severe disagreement.",
+          "vector": [40, 75, -45]
+        }
+      ]
+    }
+  ]
+}

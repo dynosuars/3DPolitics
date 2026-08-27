@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Vector Space & AI Embedding Dashboard</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/result.css">
+    <!-- Three.js and OrbitControls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="title">Result</h1>
+        <div class="breaker"></div>
+        <p>You're ideologically aligned with: <span id="aligned-person">Loading...</span></p>
+    </div>
+    
+    <div class="container">
+
+        <div class="overgroup">
+            <div id="webgl-container">
+                <div class="canvas-hint">Drag to rotate | Scroll to zoom | Right-click to Move</div>
+            </div>
+        </div>
+
+
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+
+            <div class="overgroup">
+                <h2>Vectorized summary</h2>
+                <div id="aggregated-vector" class="vector-text">Calculating...</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+    </div>
+
+    <script src="scripts/vectorized.js"></script>
+    <script src="scripts/match.js"></script>
+</body>
+</html>

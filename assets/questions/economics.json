@@ -1,0 +1,476 @@
+{
+  "questions": [
+    {
+      "question": "A company develops technology capable of replacing a large number of workers. What should happen?",
+      "answers": [
+        {
+          "answer": "Let the technology develop freely. Preventing innovation to preserve existing jobs is counterproductive.",
+          "vector": [-70, -20, 0]
+        },
+        {
+          "answer": "Allow it, but require companies to provide meaningful retraining for displaced workers.",
+          "vector": [-30, 20, 5]
+        },
+        {
+          "answer": "Allow the technology while creating temporary government assistance for affected workers.",
+          "vector": [10, 35, 5]
+        },
+        {
+          "answer": "Restrict deployment until the economic consequences are better understood.",
+          "vector": [35, 50, -5]
+        },
+        {
+          "answer": "Heavily restrict technologies whose primary purpose is replacing human workers.",
+          "vector": [70, 65, -10]
+        }
+      ]
+    },
+    {
+      "question": "A government needs additional revenue for public programs. Where should it primarily obtain it?",
+      "answers": [
+        {
+          "answer": "Reduce spending rather than increasing taxes.",
+          "vector": [-70, -40, 0]
+        },
+        {
+          "answer": "Raise consumption taxes so everyone contributes according to what they purchase.",
+          "vector": [-25, 10, 0]
+        },
+        {
+          "answer": "Use a relatively broad tax increase across the population.",
+          "vector": [0, 25, 0]
+        },
+        {
+          "answer": "Increase taxes primarily on high-income individuals.",
+          "vector": [45, 35, 0]
+        },
+        {
+          "answer": "Significantly increase taxation of the wealthiest individuals and corporations.",
+          "vector": [80, 50, 5]
+        }
+      ]
+    },
+    {
+      "question": "A person publicly expresses an extremely offensive political opinion that is legal but widely condemned. What should happen?",
+      "answers": [
+        {
+          "answer": "The person should face no government consequences for the speech.",
+          "vector": [-5, -90, 20]
+        },
+        {
+          "answer": "The government should generally stay out of it, while private organizations may impose their own consequences.",
+          "vector": [0, -60, 10]
+        },
+        {
+          "answer": "Certain forms of harmful expression should receive limited restrictions.",
+          "vector": [10, 20, -10]
+        },
+        {
+          "answer": "The government should restrict speech that creates serious social harm.",
+          "vector": [15, 65, -30]
+        }
+      ]
+    },
+    {
+      "question": "Which approach should a country take toward healthcare?",
+      "answers": [
+        {
+          "answer": "Healthcare should primarily operate through private markets.",
+          "vector": [-80, -30, 0]
+        },
+        {
+          "answer": "Maintain private healthcare but provide assistance to people who cannot afford it.",
+          "vector": [-35, 0, 0]
+        },
+        {
+          "answer": "Provide a universal public system while allowing private alternatives.",
+          "vector": [35, 20, 0]
+        },
+        {
+          "answer": "Make healthcare primarily a government-provided service.",
+          "vector": [70, 45, 0]
+        }
+      ]
+    },
+    {
+      "question": "A country is experiencing a large increase in immigration. How should it respond?",
+      "answers": [
+        {
+          "answer": "Immigration should remain highly open with minimal restrictions.",
+          "vector": [20, -20, 75]
+        },
+        {
+          "answer": "Maintain relatively high immigration but establish stronger screening procedures.",
+          "vector": [15, 10, 50]
+        },
+        {
+          "answer": "Set immigration according to economic needs and available infrastructure.",
+          "vector": [10, 35, 10]
+        },
+        {
+          "answer": "Significantly reduce immigration to preserve social stability and national identity.",
+          "vector": [-10, 55, -55]
+        },
+        {
+          "answer": "Immigration should be extremely limited except under exceptional circumstances.",
+          "vector": [-15, 75, -80]
+        }
+      ]
+    },
+    {
+      "question": "A government proposes widespread digital surveillance to prevent serious crimes. What should happen?",
+      "answers": [
+        {
+          "answer": "Reject it. Government surveillance should be extremely limited.",
+          "vector": [0, -90, 35]
+        },
+        {
+          "answer": "Permit targeted surveillance only with individual warrants.",
+          "vector": [0, -45, 20]
+        },
+        {
+          "answer": "Permit broader surveillance when there is judicial oversight.",
+          "vector": [0, 15, -5]
+        },
+        {
+          "answer": "Allow intelligence agencies substantial surveillance powers when justified by security concerns.",
+          "vector": [0, 60, -25]
+        },
+        {
+          "answer": "National security should take priority over most privacy concerns.",
+          "vector": [0, 90, -45]
+        }
+      ]
+    },
+    {
+      "question": "How should a country primarily fund education?",
+      "answers": [
+        {
+          "answer": "Give families substantial freedom to choose private or public schools.",
+          "vector": [-55, -35, 15]
+        },
+        {
+          "answer": "Maintain public schools but expand alternatives and school choice.",
+          "vector": [-25, -10, 10]
+        },
+        {
+          "answer": "Maintain a strong universal public education system with limited alternatives.",
+          "vector": [35, 25, -5]
+        },
+        {
+          "answer": "Make education overwhelmingly a centralized public responsibility.",
+          "vector": [65, 55, -15]
+        }
+      ]
+    },
+    {
+      "question": "A large corporation has become dominant in an important industry. What should the government do?",
+      "answers": [
+        {
+          "answer": "Leave it alone unless it commits a clearly illegal act.",
+          "vector": [-75, -35, 0]
+        },
+        {
+          "answer": "Monitor it but intervene only if consumers are demonstrably harmed.",
+          "vector": [-35, -10, 0]
+        },
+        {
+          "answer": "Introduce regulations preventing anti-competitive behavior.",
+          "vector": [20, 25, 0]
+        },
+        {
+          "answer": "Break up companies that become excessively dominant.",
+          "vector": [65, 50, 5]
+        }
+      ]
+    },
+    {
+      "question": "Should young adults be required to perform some form of national service?",
+      "answers": [
+        {
+          "answer": "No compulsory service should exist.",
+          "vector": [0, -70, 35]
+        },
+        {
+          "answer": "Service should remain voluntary, but volunteers should receive significant benefits.",
+          "vector": [0, -40, 20]
+        },
+        {
+          "answer": "Encourage service through incentives rather than legal requirements.",
+          "vector": [5, 10, 10]
+        },
+        {
+          "answer": "Require a limited period of civilian or military service.",
+          "vector": [10, 50, -20]
+        },
+        {
+          "answer": "National service should be a major civic obligation.",
+          "vector": [15, 85, -40]
+        }
+      ]
+    },
+    {
+      "question": "An international organization proposes rules that would solve a major global problem but restrict some national decision-making.",
+      "answers": [
+        {
+          "answer": "Accept the rules. Global problems require global solutions.",
+          "vector": [15, -20, 85]
+        },
+        {
+          "answer": "Accept them while negotiating protections for national interests.",
+          "vector": [10, 10, 55]
+        },
+        {
+          "answer": "Participate voluntarily without surrendering significant authority.",
+          "vector": [0, 35, 20]
+        },
+        {
+          "answer": "Reject rules that substantially limit national sovereignty.",
+          "vector": [-5, 60, -45]
+        },
+        {
+          "answer": "National governments should have almost complete authority over domestic affairs.",
+          "vector": [-10, 85, -80]
+        }
+      ]
+    },
+    {
+      "question": "A major environmental regulation would significantly increase production costs. What should the government do?",
+      "answers": [
+        {
+          "answer": "Implement it regardless of the economic cost.",
+          "vector": [45, 30, 40]
+        },
+        {
+          "answer": "Implement it gradually so businesses have time to adapt.",
+          "vector": [20, 20, 25]
+        },
+        {
+          "answer": "Use incentives rather than mandatory regulations whenever possible.",
+          "vector": [-15, -10, 15]
+        },
+        {
+          "answer": "Avoid the regulation unless the environmental damage is clearly severe.",
+          "vector": [-45, -25, -10]
+        },
+        {
+          "answer": "Economic growth should generally take priority over environmental restrictions.",
+          "vector": [-70, -35, -20]
+        }
+      ]
+    },
+    {
+      "question": "Housing prices in major cities have become extremely high. What should the government do?",
+      "answers": [
+        {
+          "answer": "Remove most restrictions on construction and let the market increase supply.",
+          "vector": [-65, -30, 0]
+        },
+        {
+          "answer": "Reduce zoning restrictions while maintaining basic regulations.",
+          "vector": [-30, -5, 0]
+        },
+        {
+          "answer": "Build additional public housing alongside private development.",
+          "vector": [35, 30, 5]
+        },
+        {
+          "answer": "Introduce strong rent controls and extensive public housing programs.",
+          "vector": [75, 60, -5]
+        }
+      ]
+    },
+    {
+      "question": "A country has rising crime rates. Which approach should it prioritize?",
+      "answers": [
+        {
+          "answer": "Focus primarily on individual freedom and avoid expanding police powers.",
+          "vector": [0, -70, 30]
+        },
+        {
+          "answer": "Improve policing while maintaining strong legal protections for suspects.",
+          "vector": [0, -25, 20]
+        },
+        {
+          "answer": "Increase police resources and sentencing for serious crimes.",
+          "vector": [0, 35, -15]
+        },
+        {
+          "answer": "Give law enforcement substantially greater authority to prevent crime.",
+          "vector": [0, 70, -35]
+        }
+      ]
+    },
+    {
+      "question": "Domestic manufacturers are struggling because foreign products are cheaper. What should the government do?",
+      "answers": [
+        {
+          "answer": "Allow unrestricted international competition.",
+          "vector": [-75, -20, 60]
+        },
+        {
+          "answer": "Provide temporary assistance to domestic companies.",
+          "vector": [-25, 15, 30]
+        },
+        {
+          "answer": "Introduce moderate tariffs while encouraging domestic production.",
+          "vector": [20, 35, -15]
+        },
+        {
+          "answer": "Use strong tariffs to protect domestic industries.",
+          "vector": [55, 50, -40]
+        },
+        {
+          "answer": "Greatly restrict foreign competition in strategic industries.",
+          "vector": [75, 70, -55]
+        }
+      ]
+    },
+    {
+      "question": "A new technology can dramatically improve public safety but requires collecting large amounts of personal data.",
+      "answers": [
+        {
+          "answer": "Use it freely. Public safety benefits outweigh privacy concerns.",
+          "vector": [0, 65, -35]
+        },
+        {
+          "answer": "Use it with transparent rules and limited data retention.",
+          "vector": [5, 25, -10]
+        },
+        {
+          "answer": "Require independent oversight before deployment.",
+          "vector": [10, 0, 15]
+        },
+        {
+          "answer": "Restrict its use to exceptional circumstances.",
+          "vector": [10, -35, 30]
+        },
+        {
+          "answer": "Prohibit the technology from being used by the government.",
+          "vector": [5, -75, 50]
+        }
+      ]
+    },
+    {
+      "question": "Someone is unemployed and unable to support themselves. What should society do?",
+      "answers": [
+        {
+          "answer": "Assistance should primarily come from families, communities, and charities.",
+          "vector": [-65, -35, 20]
+        },
+        {
+          "answer": "Provide temporary government assistance while encouraging employment.",
+          "vector": [-20, 5, 10]
+        },
+        {
+          "answer": "Guarantee basic support while providing opportunities for employment and training.",
+          "vector": [25, 25, 10]
+        },
+        {
+          "answer": "Guarantee a strong minimum standard of living regardless of employment.",
+          "vector": [70, 50, 5]
+        }
+      ]
+    },
+    {
+      "question": "A long-standing cultural tradition conflicts with newer social values. What should happen?",
+      "answers": [
+        {
+          "answer": "Preserve the tradition unless it directly harms someone.",
+          "vector": [-5, 20, -70]
+        },
+        {
+          "answer": "Preserve it while allowing individuals to reject it personally.",
+          "vector": [0, -10, -40]
+        },
+        {
+          "answer": "Let communities gradually decide how the tradition evolves.",
+          "vector": [5, -5, 0]
+        },
+        {
+          "answer": "Encourage society to move away from traditions that conflict with modern values.",
+          "vector": [10, 10, 45]
+        },
+        {
+          "answer": "Replace outdated traditions with newer social norms whenever necessary.",
+          "vector": [15, 25, 80]
+        }
+      ]
+    },
+    {
+      "question": "A severe recession causes many businesses to fail. What should the government do?",
+      "answers": [
+        {
+          "answer": "Do little. Economic cycles should largely correct themselves.",
+          "vector": [-85, -45, 0]
+        },
+        {
+          "answer": "Reduce taxes and regulations to encourage private investment.",
+          "vector": [-55, -20, 0]
+        },
+        {
+          "answer": "Provide temporary assistance to strategically important businesses.",
+          "vector": [10, 25, 0]
+        },
+        {
+          "answer": "Spend heavily to stimulate the economy and protect employment.",
+          "vector": [55, 45, 5]
+        },
+        {
+          "answer": "Take direct control of critical industries if necessary.",
+          "vector": [85, 75, -5]
+        }
+      ]
+    },
+    {
+      "question": "A foreign country is committing serious abuses against its population, but intervening could create a major international conflict.",
+      "answers": [
+        {
+          "answer": "Do not intervene. Other countries should determine their own affairs.",
+          "vector": [0, -10, -70]
+        },
+        {
+          "answer": "Use diplomatic and economic pressure instead of military force.",
+          "vector": [10, 15, -35]
+        },
+        {
+          "answer": "Intervene only if there is broad international support.",
+          "vector": [5, 35, 20]
+        },
+        {
+          "answer": "Military intervention can be justified to prevent severe humanitarian disasters.",
+          "vector": [15, 50, 55]
+        },
+        {
+          "answer": "A country should intervene whenever its strategic interests and security justify it.",
+          "vector": [20, 75, 35]
+        }
+      ]
+    },
+    {
+      "question": "A government faces an emergency and claims that existing laws prevent it from responding effectively. What should happen?",
+      "answers": [
+        {
+          "answer": "The government must follow existing laws regardless of the emergency.",
+          "vector": [0, -85, 40]
+        },
+        {
+          "answer": "Temporary emergency powers may be granted but must have strict limits.",
+          "vector": [0, -30, 20]
+        },
+        {
+          "answer": "Emergency powers should require approval from the legislature or courts.",
+          "vector": [0, 10, 5]
+        },
+        {
+          "answer": "The executive should receive broad temporary powers during serious emergencies.",
+          "vector": [0, 60, -25]
+        },
+        {
+          "answer": "Protecting the state during an existential emergency should take priority over normal legal restrictions.",
+          "vector": [0, 90, -50]
+        }
+      ]
+    }
+  ]
+}
