@@ -1,38 +1,39 @@
 {
+    "ideology": "Communism",
     "vectors" : [
         {
             "name": "Vladimir Lenin",
-            "image": "assets/people/lenin.jpg",
+            "image": "assets/images/people/lenin.jpg",
             "comments": "Russian revolutionary, politician, and political theorist. He served as head of government of Soviet Russia from 1917 to 1924 and of the Soviet Union from 1922 to 1924. His political theories, known as Leninism, were developed from Marxism and laid the foundation for the ideology of the Soviet Union.",
             "vectors": [90, 40, 30]
         },
         {
             "name": "Leon Trotsky",
-            "image": "assets/people/trotsky.jpg",
+            "image": "assets/images/people/trotsky.jpg",
             "comments": "Russian revolutionary, Marxist theorist, and Soviet politician. He was a key figure in the Bolshevik victory in the Russian Civil War and the establishment of the Soviet Union. Trotsky's ideas, known as Trotskyism, emphasized the need for international revolution and the permanent revolution theory.",
             "vectors": [80, 50, 70]
         },
         {
             "name": "Karl Marx",
-            "image": "assets/people/marx.jpg",
+            "image": "assets/images/people/marx.jpg",
             "comments": "German philosopher, economist, historian, sociologist, political theorist, journalist, and socialist revolutionary. Marx's work in economics laid the foundation for the current understanding of labor and its relation to capital, and subsequent economic thought. He is best known for his theories about capitalism and communism.",
             "vectors": [100, 60, 80]
         },
         {
             "name": "Friedrich Engels",
-            "image": "assets/people/engels.jpg",
+            "image": "assets/images/people/engels.jpg",
             "comments": "German philosopher, social scientist, journalist, and businessman. Engels co-authored several works with Karl Marx, including The Communist Manifesto, and played a significant role in the development of Marxist theory. He also supported Marx financially and helped to popularize his ideas.",
             "vectors": [95, 50, 60]
         },
         {
             "name": "Rosa Luxemburg",
-            "image": "assets/people/luxemburg.jpg",
+            "image": "assets/images/people/luxemburg.jpg",
             "comments": "Polish Marxist theorist, philosopher, economist, anti-war activist, and revolutionary socialist. Luxemburg was a key figure in the German socialist movement and co-founded the Spartacus League, which later became the Communist Party of Germany. She advocated for revolutionary socialism and was critical of both the reformist and authoritarian tendencies within the socialist movement.",
             "vectors": [85, 45, 55]
         },
         {
             "name": "Che Guevara",
-            "image": "assets/people/che.jpg",
+            "image": "assets/images/people/che.jpg",
             "comments": "Argentine Marxist revolutionary, physician, author, guerrilla leader, diplomat, and military theorist. Guevara was a major figure in the Cuban Revolution and his stylized image has become a symbol of rebellion and global insignia in popular culture. He advocated for the spread of revolutionary socialism and was involved in various revolutionary movements in Latin America and Africa.",
             "vectors": [75, 35, 60]
         }

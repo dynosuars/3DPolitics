@@ -1,0 +1,23 @@
+{
+    "Ideology": "Anarcho-Capitalism/Laissez-Faire",
+    "vectors": [
+        {
+            "name": "Milton Friedman",
+            "image": "assets/images/people/friedman.jpg",
+            "comments": "American economist and Nobel Prize laureate, known for his work in the field of economics and his advocacy for free-market capitalism. Friedman was a strong proponent of monetarism and the idea that the free market is the most efficient way to allocate resources.",
+            "vectors": [10, -20, 30]
+        },
+        {
+            "name": "Thomas Jefferson",
+            "image": "assets/images/people/jefferson.jpg",
+            "comments": "American Founding Father, the principal author of the Declaration of Independence, and the third President of the United States. Jefferson was a proponent of individual liberty, limited government, and free-market principles. He believed in the importance of personal freedom and the protection of individual rights.",
+            "vectors": [40, -40, 30]
+        },
+        {
+            "name": "Adam Smith",
+            "image": "assets/images/people/smith.jpg",
+            "comments": "Scottish economist and philosopher, widely regarded as the father of modern economics. Smith is best known for his influential work 'The Wealth of Nations,' in which he laid the foundations for classical free-market economic theory. He advocated for the idea of the 'invisible hand', suggesting that individuals pursuing their own self-interest can lead to positive outcomes for society as a whole.",
+            "vectors": [30, -30, 40]
+        }
+    ]
+}

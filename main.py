@@ -1,11 +1,27 @@
-import os 
-import json
+import os
+import shutil
+import subprocess
+import time
 
-a = json.loads(open('assets/people/people.json').read())['file']
+def convert(inp : str, con : str) -> None:
+    subprocess.run(['ffmpeg', '-i', inp, inp.replace(os.path.splitext(inp)[1], '.' + con)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-for file in a:
-    if not os.path.exists(f'assets/people/{file}'):
-        with open(f'assets/people/{file}', 'w') as f:
-            json.dump({"vectors": []}, f)
-            f.close()
-    
+    if(os.path.exists(inp.replace(os.path.splitext(inp)[1], '.' + con))):
+        os.remove(inp.replace(os.path.splitext(inp)[1], '.' + con))
+        return
+
+    shutil.move(inp.replace(os.path.splitext(inp)[1], '.' + con), os.getcwd() + "/assets/images/people")
+    print(f"Converted {inp} to {con} and moved to assets/images/people")
+
+
+def main():
+    while True:
+        for file in os.listdir():
+            print(f"Checking {file}...")
+            if file.endswith(('.png', '.jpeg', '.webp', '.avif')):
+                convert(file, 'jpg')
+
+        time.sleep(5)
+
+if __name__ == "__main__":
+    main()

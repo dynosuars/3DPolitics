@@ -1,1 +1,41 @@
-{"vectors": []}
+{
+    "ideology": "Right-Wing Populism",
+    "vectors": [
+        {
+            "name": "Adolf Hitler",
+            "image": "assets/images/people/hitler.jpg",
+            "comments": "German politician and leader of the Nazi Party. He was the Chancellor of Germany from 1933 to 1945 and the Führer of Nazi Germany from 1934 to 1945. His regime was characterized by totalitarian control, racial ideology, and aggressive expansionism.",
+            "vectors": [30, -90, -90]
+        },
+        {
+            "name": "Benito Mussolini",
+            "image": "assets/images/people/mussolini.jpg",
+            "comments": "Italian politician and journalist who founded and led the National Fascist Party. He ruled Italy as Prime Minister from 1922 to 1943 and established a totalitarian regime. Mussolini's policies emphasized nationalism, militarism, and the suppression of political opposition.",
+            "vectors": [40, -80, -80]
+        },
+        {
+            "name": "Jiang Jieshi (Chiang Kai-shek)",
+            "image": "assets/images/people/chiang.jpg",
+            "comments": "Chinese political and military leader who served as the leader of the Republic of China between 1928 and 1975. He was a member of the Kuomintang (KMT) and played a key role in the Chinese Civil War. Chiang's government was characterized by authoritarian rule, anti-communism, and efforts to modernize China.",
+            "vectors": [50, -60, -50]
+        },
+        {
+            "name": "Donald J. Trump",
+            "image": "assets/images/people/trump.jpg",
+            "comments": "45th President of the United States, serving from 2017 to 2021. He is known for his populist and nationalist policies, as well as his controversial rhetoric. Trump's presidency was marked by a focus on immigration control, deregulation, and an 'America First' approach to foreign policy.",
+            "vectors": [50, -20, -30]
+        },
+        {
+            "name": "Vladimir Putin",
+            "image": "assets/images/people/putin.jpg",
+            "comments": "Russian politician and former intelligence officer who has served as the President of Russia since 2012, previously holding the position from 2000 to 2008. He has been a dominant figure in Russian politics, known for his centralization of power, assertive foreign policy, and efforts to restore Russia's influence on the global stage.",
+            "vectors": [30, -70, -60]
+        },
+        {
+            "name": "Hirohito",
+            "image": "assets/images/people/hirohito.jpg",
+            "comments": "Emperor of Japan from 1926 to 1989. He was the longest-reigning monarch in Japanese history and played a significant role during World War II. Hirohito's reign saw Japan's militarization, expansion in Asia, and eventual defeat in the war. After the war, he became a symbol of Japan's post-war recovery and modernization.",
+            "vectors": [20, -80, -70]
+        }
+    ]
+}

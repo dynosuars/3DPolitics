@@ -1,1 +1,29 @@
-{"vectors": []}
+{
+    "ideology": "Social-Liberalism",
+    "vectors": [
+        {
+            "name": "John Maynard Keynes",
+            "image": "assets/images/people/keynes.jpg",
+            "comments": "British economist whose ideas fundamentally changed the theory and practice of macroeconomics and the economic policies of governments. He advocated for increased government expenditures and lower taxes to stimulate demand and pull the global economy out of the depression.",
+            "vectors": [-20, 30, 30]
+        },
+        {
+            "name": "Bill Clinton",
+            "image": "assets/images/people/clinton.jpg",
+            "comments": "42nd President of the United States, serving from 1993 to 2001. He implemented policies that promoted economic growth, welfare reform, and globalization. Clinton's presidency was marked by a focus on centrist policies and a commitment to social liberalism.",
+            "vectors": [-30, 40, 40]
+        },
+        {
+            "name": "Emmanuel Macron",
+            "image": "assets/images/people/macron.jpg",
+            "comments": "French politician serving as President of France since 2017. He is known for his pro-European Union stance and his efforts to implement economic reforms in France. Macron's policies focus on social liberalism, economic modernization, and strengthening the European Union.",
+            "vectors": [-25, 35, 25]
+        },
+        {
+            "name": "Barack Obama",
+            "image": "assets/images/people/obama.jpg",
+            "comments": "44th President of the United States, serving from 2009 to 2017. He implemented policies that focused on healthcare reform, economic recovery, and social justice. Obama's presidency was marked by a commitment to social liberalism, progressive values, and international diplomacy.",
+            "vectors": [-30, 35, 50]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "ideology": "Paleolibertarianism",
+    "vectors": [
+        {
+            "name": "Murray Rothbard",
+            "image": "assets/images/people/rothbard.jpg",
+            "comments": "American economist, historian, and political theorist. Rothbard was a leading figure in the development of modern libertarianism and anarcho-capitalism. He advocated for a stateless society based on voluntary exchange and private property, and he was a strong critic of government intervention in the economy.",
+            "vectors": [20, -30, -40]
+        },
+        {
+            "name": "Javier Milei",
+            "image": "assets/images/people/milei.jpg",
+            "comments": "Argentine economist, author, and politician. Milei is known for his libertarian views and his advocacy for free-market economics. He has been a vocal critic of government intervention and has promoted policies that emphasize individual liberty, limited government, and economic freedom.",
+            "vectors": [30, -40, -50]
+        },
+        {
+            "name": "Elon Musk",
+            "image": "assets/images/people/musk.jpg",
+            "comments": "South African-born American entrepreneur and business magnate. Musk is the founder, CEO, and chief engineer of SpaceX; early investor, CEO, and product architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink; and co-founder and initial co-chairman of OpenAI. He is known for his work in advancing technology and innovation, particularly in the fields of space exploration, electric vehicles, and renewable energy.",
+            "vectors": [60, -40, -50]
+        }
+    ]
+}

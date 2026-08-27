@@ -15,7 +15,9 @@
     <div class="header">
         <h1 class="title">Result</h1>
         <div class="breaker"></div>
-        <p>You're ideologically aligned with: <span id="aligned-person">Loading...</span></p>
+        <p class="subtitle">You're ideologically aligned with: <span id="aligned-person">Loading...</span></p>
+        <div class="breaker"></div>
+        <p class="subtitle">Please understand that this is not a accurate representation of your political values as I am unable to fully capture every nuance of your beliefs.</p>
     </div>
     
     <div class="container">
@@ -23,6 +25,11 @@
         <div class="overgroup">
             <div id="webgl-container">
                 <div class="canvas-hint">Drag to rotate | Scroll to zoom | Right-click to Move</div>
+            </div>
+            <div class="breaker"></div>
+            <div class="info">
+                <h2>Others you might like:</h2>
+                <div id="other-people" class="vector-text">Loading...</div>
             </div>
         </div>
 
@@ -34,13 +41,67 @@
                 <div id="aggregated-vector" class="vector-text">Calculating...</div>
             </div>
 
+            <div class="overgroup">
+                <h2>Closest person</h2>
+                <div id="closest-person" class="vector-text">
+                    Loading...
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="footer">
+        <p class="footer-text">Visit <a href="https://github.com/dynosuars/3DPolitics">Github</a> if you believe this is incorrect.<br> I will 100% improve this if you comment!</p>
+        <p class="footer-thank-you">Thank you for playing this anyways! - @Dynosuars</p>
     </div>
 
     <script src="scripts/vectorized.js"></script>
     <script src="scripts/match.js"></script>
+    <script>
+        async function init() {
+            const e = await closest(vectorized);
+            const aligned = document.getElementById('aligned-person');
+            aligned.textContent = e.closestIdeology;
+            const arr = createThickArrow(e.closest.vectors, 0xBF00FF); // Red arrow for closest person
+            scene.add(arr);
+
+            const closestPersonDiv = document.getElementById('closest-person');
+            closestPersonDiv.innerHTML = `
+                <div class="portrait-container">
+                    <div class="portrait-header">
+                        <p class="portrait-text"><strong>Name:</strong> ${e.closest.name}, distance=${distance(vectorized, e.closest.vectors).toFixed(2)}<br><p>
+                    </div>
+
+                    <div class="breaker"></div>
+
+                    <img src="${e.closest.image}" alt="${e.closest.name}" class="portrait"><br>
+
+                    <div class="breaker"></div>
+                    <p>${e.closest.comments}</p>
+                </div>
+            `;
+
+            for(alike in e.similar) {
+                const target = document.getElementById('other-people');
+                target.textContent = "";
+                for (let i = 0; i < e.similar.length; i++) {
+                    const person = e.similar[i];
+                    const personDiv = document.createElement('div');
+                    personDiv.className = 'portrait-container';
+                    personDiv.innerHTML = `
+                        <div class="portrait-header">
+                            <p class="portrait-text"><strong>Name:</strong> ${person.name}, distance=${distance(vectorized, person.vectors).toFixed(2)}<br><p>
+                        </div>
+                        `;
+                    target.appendChild(personDiv);
+                    if(i < e.similar.length - 1) {
+                        target.appendChild(document.createElement('div')).className = 'breaker';
+                    }
+                }
+            }
+        }
+
+        init();
+    </script>
 </body>
 </html>

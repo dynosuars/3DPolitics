@@ -15,8 +15,37 @@ async function fetchVectorsFromFile(fileName) {
     const base = 'assets/people';
     const response = await fetch(`${base}/${fileName}`);
     const data = await response.json();
-    return data.vectors;
+    return data;
 }
+
+async function closest(vec3) {
+    const fileName = await findvectorized(vec3);
+    const data = await fetchVectorsFromFile(fileName);
+    var similar = [];
+    let p = null;
+    let closestIdeology = data.ideology || "Centralist"; // Default ideology if not found
+    let closestDistance = Infinity;
+
+    for( let i = 0; i < data.vectors.length; i++) {
+        const vector = data.vectors[i];
+        const dist = distance(vec3, vector.vectors);
+        if (dist < closestDistance) {
+            p = data.vectors[i];
+            closestDistance = dist;
+            similar.push(p);
+        }
+    }
+
+    similar.sort((a, b) => distance(vec3, a.vectors) - distance(vec3, b.vectors));
+    similar.shift(); // Remove the closest one since it's already stored in p
+    return {
+        similar: similar,
+        closest: p,
+        closestIdeology: closestIdeology
+    };
+}
+
+
 
 function distance(vecA, vecB) {
     if (vecA.length !== vecB.length) {

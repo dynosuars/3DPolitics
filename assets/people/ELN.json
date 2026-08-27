@@ -1,1 +1,17 @@
-{"vectors": []}
+{
+    "ideology": "Left-Wing Populism",
+    "vectors": [
+        {
+            "name": "Hugo Chávez",
+            "image": "assets/images/people/chavez.jpg",
+            "comments": "Venezuelan politician and military officer who served as the President of Venezuela from 1999 until his death in 2013. He was a key figure in the Bolivarian Revolution, implementing socialist policies and promoting Latin American integration. Chávez's leadership style and populist rhetoric made him a polarizing figure, both domestically and internationally.",
+            "vectors": [50, -20, -30]
+        },
+        {
+            "name": "Bernie Sanders",
+            "image": "assets/images/people/sanders.jpg",
+            "comments": "American politician and Senator from Vermont. He is known for his progressive policies and advocacy for social and economic justice. Sanders has been a prominent figure in American politics, particularly for his campaigns for the Democratic presidential nomination in 2016 and 2020, where he emphasized issues such as income inequality, healthcare reform, and climate change.",
+            "vectors": [40, -30, -10]
+        }
+    ]
+}
