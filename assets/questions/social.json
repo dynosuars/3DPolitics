@@ -432,6 +432,10 @@
         {
           "answer": "Foreign ownership can bring useful international investment and cultural exchange.",
           "vector": [-30, 0, 65]
+        },
+        {
+          "answer": "A country should be able to help who they want with their money. Regardless of what they do",
+          "vector": [10, -20, 30]
         }
       ]
     },

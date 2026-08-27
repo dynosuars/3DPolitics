@@ -90,7 +90,18 @@
         if (current > 0) {
             current--;
             renderQuestion();
-            vectors.pop();
+            let last = vectors.pop();
+
+            for(let i = 0; i < questions[current].answers.length; i++) {
+                if (questions[current].answers[i].vector === last) {
+                    index = i;
+                    const answerSection = document.getElementById('answershere');
+                    const siblings = answerSection.querySelectorAll('.option-btn');
+                    siblings.forEach(btn => btn.classList.remove('selected'));
+                    siblings[i].classList.add('selected');
+                    break;
+                }
+            }
         } else {
             alert("This is the first question.");
         }
