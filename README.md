@@ -4,7 +4,6 @@ This is a political testing application that is used for entertainment and educa
 
 Note: this will include some political bias, despite my tries to maintain a neutral political perspective towards different ideology.
 
-
 ## Credits
 
 Thank you to [Wikipedia](https://en.wikipedia.org/) for the images! They are a excellent source of information, despite your teachers disapproving it!
@@ -12,5 +11,3 @@ Thank you to [Wikipedia](https://en.wikipedia.org/) for the images! They are a e
 Thank you to [Britannica](https://www.britannica.com/) for even more images! They are another excellent way to learning history!
 
 Thank you to [8Values](https://8values.github.io) for giving me inspiration.
-
-* [ ]

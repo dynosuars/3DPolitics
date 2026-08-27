@@ -1,145 +1,199 @@
+
+/* This thing SORTA vibe coded :/ I am not good at CSS, I'll definitely admit that. */
+:root {
+    --bg-main: #f0eee3;
+    --bg-card: #f0f0f0;
+    --bg-white: #ffffff;
+    --color-primary: #1b48fa;
+    --color-text-main: #000000;
+    --color-text-muted: #555555;
+    
+    --font-primary: Arial, sans-serif;
+    --font-mono: "JetBrains Mono Nerd Font", "Hack", monospace;
+    
+    --border-main: 2px solid #000000;
+    --border-light: 1px solid #000000;
+    --radius-main: 10px;
+    --radius-small: 5px;
+    --shadow-main: 3px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #f0eee3;
-    font-family: Arial, sans-serif;
+    background-color: var(--bg-main);
+    font-family: var(--font-primary);
+    color: var(--color-text-main);
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
+
+
+.title, 
+.valSpecificName, 
+.modal h2, 
+.modal p, 
+.notice, 
+.overview h2, 
+.overview h3, 
+.overview p, 
+.interest, 
+.footer {
+    font-family: var(--font-mono);
+}
+
 
 .header {
     text-align: center;
-    margin-bottom: 20px;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #f0f0f0;
+    width: calc(100% - 30px);
+    max-width: 900px;
+    margin: 15px auto;
+    border: var(--border-main);
+    border-radius: var(--radius-main);
+    padding: 15px;
+    background-color: var(--bg-card);
 }
 
 .header .title {
-    font-size: 2.5em;
+    font-size: clamp(1.8em, 5vw, 2.5em);
     margin: 0;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
 }
 
 .breaker {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-bottom: 2px solid #000;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: var(--border-main);
 }
 
-
-
 .values {
-    display:inline-flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
     width: 100%;
+    margin-bottom: 20px;
+    padding: 0 15px;
 }
 
 .valGroup {
     text-align: center;
+    flex: 1 1 140px;
+    max-width: 200px;
 }
 
 .valName {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin: 0;
 }
 
 .value {
-    margin: 10px 0;
-    border: 1px solid #000;
+    margin: 10px auto;
+    border: var(--border-light);
     padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
-    width: 150px;
-    max-height: auto;
+    background-color: var(--bg-white);
+    border-radius: var(--radius-small);
+    box-shadow: var(--shadow-main);
+    width: 100%;
 }
 
 .valSpecificName {
     font-size: 0.8em;
     font-weight: bold;
     margin: 0;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
 }
 
 .valIcon {
-    max-width: 100px;
-    max-height: auto;
+    max-width: 100%;
+    height: auto;
     transform: scale(1);
-    transition: transform 0.3s;
+    transition: transform 0.3s ease;
     display: inline-block;
-    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-main);
 }
 
 .valIcon:hover {
     transform: scale(1.075);
-    transition: transform 0.3s;
 }
 
-.start {
+.modal input {
+    display: block;
+    padding: 10px;
+    font-size: 1em;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    border-radius: var(--radius-small);
+    border: var(--border-light);
+    box-shadow: var(--shadow-main);
+    margin-bottom: 0;
+}
+
+.modal label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.modal input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
+
+.start, 
+.modal button {
     display: block;
     margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 1.5em;
-    background-color: #1b48fa;
-    color: white;
+    padding: 12px 24px;
+    font-size: 1.25em;
+    background-color: var(--color-primary);
+    color: var(--bg-white);
     border: none;
-    border-radius: 5px;
-    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius-small);
+    box-shadow: var(--shadow-main);
     cursor: pointer;
+    width: min(100%, 250px);
+    transition: background-color 0.3s ease;
+}
+
+.modal button:hover {
+    background-color: #0f2e9c;
+    transition: background-color 0.3s ease;
 }
 
 .modal {
-    border: 2px solid #000;
-    border-radius: 10px;
+    border: var(--border-main);
+    border-radius: var(--radius-main);
     padding: 20px;
-    background-color: #f0f0f0;
-    box-shadow: none;
-    width: 50%;
+    background-color: var(--bg-card);
+    width: calc(100% - 30px);
+    max-width: 600px;
+    margin: auto;
 }
 
 .modal h2 {
-    font-size: 2em;
+    font-size: 1.75em;
     margin-top: 0;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
 }
 
 .modal p {
-    font-size: 1.2em;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+    font-size: 1em;
 }
 
-.modal button {
-    display: block;
-    margin: 20px auto 0 auto;
-    padding: 10px 20px;
-    font-size: 1.5em;
-    background-color: #1b48fa;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
 
 .notice {
     text-align: center;
-    font-size: 1.2em;
-    margin-top: 20px;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
-    line-height: 1.5;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 20px;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto; 
-    background-color: #f0f0f0;
-    margin-bottom: 20px;
+    font-size: 1em;
+    margin: 20px auto;
+    border: var(--border-main);
+    border-radius: var(--radius-main);
+    padding: 15px;
+    width: calc(100% - 30px);
+    max-width: 900px;
+    background-color: var(--bg-card);
 }
 
 .notice .legalGroup {
@@ -148,109 +202,86 @@ body {
     padding: 10px;
 }
 
+
 .overview {
-    margin-top: 20px;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 20px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto; 
-    background-color: #f0f0f0;
+    margin: 20px auto;
+    border: var(--border-main);
+    border-radius: var(--radius-main);
+    padding: 15px;
+    width: calc(100% - 30px);
+    max-width: 1000px;
+    background-color: var(--bg-card);
 }
 
 .overviewGroup {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.overgroup {
+    border: var(--border-main);
+    border-radius: var(--radius-main);
+    padding: 15px;
+    background-color: var(--bg-card);
+    flex: 1;
 }
 
 .overview h2 {
-    font-size: 1.5em;
+    font-size: 1.35em;
     margin-top: 0;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
 }
 
 .overview h3 {
     font-size: 1em;
     font-weight: 500;
-    margin-top: 20px;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
+    margin-top: 15px;
 }
 
 .overview p {
-    font-size: 0.75em;
+    font-size: 0.8em;
     font-weight: 700;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
 }
 
 .interest {
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
-    line-height: 1.5;
     font-weight: bold;
     display: flex;
 }
 
-.overgroup {
-    margin: 20px;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 20px;
-    width: auto;
-    background-color: #f0f0f0;
-}
-
-@media (min-width: 900px) {
-    .overviewGroup {
-        width: 100%;
-        display: flex;
-    }
-    
-    .overview h2 {
-        font-size: 1.75em;
-        margin-top: 0;
-        font-family: "Jetbrain Mono Nerd Font", hack, monospace;
-    }
-
-    .overview h3 {
-        font-size: 1.25em;
-        font-weight: 500;
-        margin-top: 20px;
-        font-family: "Jetbrain Mono Nerd Font", hack, monospace;
-    }
-
-    .overview p {
-        font-size: 0.75em;
-        font-weight: 700;
-        font-family: "Jetbrain Mono Nerd Font", hack, monospace;
-    }
-
-    .overview .interest {
-        font-family: "Jetbrain Mono Nerd Font", hack, monospace;
-        line-height: 1.5;
-        font-weight: bold;
-        display: flex;
-    }
-
-    .overgroup {
-        margin: 20px;
-        border: 2px solid #000;
-        border-radius: 10px;
-        padding: 20px;
-        width: auto;
-        background-color: #f0f0f0;
-    }
-}
-
 .footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 0.9em;
-    color: #555;
-    font-family: "Jetbrain Mono Nerd Font", hack, monospace;
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-top: 2px solid #000;
+    color: var(--color-text-muted);
+    background-color: var(--bg-card);
+    padding: 15px;
+    border-top: var(--border-main);
 }
 
 
+@media (min-width: 900px) {
+    .header, 
+    .notice {
+        width: 75%;
+        padding: 20px;
+    }
 
+    .overview {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .overviewGroup {
+        flex-direction: row;
+    }
+
+    .overview h2 { font-size: 1.75em; }
+    .overview h3 { font-size: 1.25em; }
+    
+    .start, 
+    .modal button {
+        font-size: 1.5em;
+        width: auto;
+    }
+}

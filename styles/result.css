@@ -45,7 +45,7 @@ body {
     gap: 20px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1080px) {
     .container {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -142,4 +142,11 @@ li {
     width: 480px;
     height: 640px;
     object-fit: cover;
+}
+
+@media (max-width: 1080px) {
+    .portrait {
+        width: 200px;
+        height: auto;
+    }
 }

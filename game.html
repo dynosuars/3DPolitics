@@ -28,9 +28,14 @@
     var index = null;
     
     document.addEventListener('DOMContentLoaded', async () => {
-        await init();
+        let configure = await readConfigure();
+        await init(configure);
         renderQuestion();
     });
+
+    async function readConfigure() {
+        return await localStorage.getItem('configure');
+    }
 
     function renderQuestion() {
         document.getElementById('question').textContent = current;

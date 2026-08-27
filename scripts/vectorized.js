@@ -96,11 +96,7 @@
         }
 
         vectors.forEach((v) => {
-            // Thick blue arrow from origin
-            const arrowGroup = createThickArrow(v, 0x1b48fa, 1.5);
-            scene.add(arrowGroup);
 
-            // Red point sphere at terminal coordinate (x, y, z)
             const pointMarker = createPointMarker(v, 0xef4444, 3.5);
             scene.add(pointMarker);
         });
@@ -109,8 +105,6 @@
         const summaryGroup = createThickArrow(vectorized, 0x00f0ff, 2.0);
         scene.add(summaryGroup);
 
-        const summaryPoint = createPointMarker(vectorized, 0xff0000, 1.5);
-        scene.add(summaryPoint);
 
         window.addEventListener('resize', () => {
             camera.aspect = container.clientWidth / container.clientHeight;
