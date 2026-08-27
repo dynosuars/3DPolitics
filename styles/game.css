@@ -54,15 +54,25 @@ body {
     box-shadow: var(--shadow-card);
     min-height: auto;
 }
+.answersection p:hover {
+    background-color: var(--bg-option-selected);
+    color: var(--color-text-light);
+}
 
 .questioncontent {
     display: block;
+    font-size: 1.25em;
+    font-family: 'Times New Roman','Google Sans';
+    font-weight: normal;
 }
 
+
+
 .question-title {
-    font-size: 1.1em;
+    font-size: 1.25em;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: 'Times New Roman','Google Sans'
 }
 
 .questioncontent p {
@@ -97,6 +107,12 @@ body {
     border-radius: var(--radius-btn);
     cursor: pointer;
     transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+}
+
+.option-btn:hover {
+    background-color: var(--bg-option-selected);
+    color: var(--color-text-light);
+    transform: scale(1.02);
 }
 
 .option-btn.selected {
