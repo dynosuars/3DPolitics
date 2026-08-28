@@ -79,22 +79,27 @@
                     <p>${e.closest.comments}</p>
                 </div>
             `;
-
-            for(alike in e.similar) {
+            console.log(e);
+            if(e.closestIdeology === "Centralist") {
                 const target = document.getElementById('other-people');
-                target.textContent = "";
-                for (let i = 0; i < e.similar.length; i++) {
-                    const person = e.similar[i];
-                    const personDiv = document.createElement('div');
-                    personDiv.className = 'portrait-container';
-                    personDiv.innerHTML = `
-                        <div class="portrait-header">
-                            <p class="portrait-text"><strong>Name:</strong> ${person.name}, distance=${distance(vectorized, person.vectors).toFixed(2)}<br><p>
-                        </div>
-                        `;
-                    target.appendChild(personDiv);
-                    if(i < e.similar.length - 1) {
-                        target.appendChild(document.createElement('div')).className = 'breaker';
+                target.textContent = "No similar people found. You are a centrist!";
+            } else {
+                for(alike in e.similar) {
+                    const target = document.getElementById('other-people');
+                    target.textContent = "";
+                    for (let i = 0; i < e.similar.length; i++) {
+                        const person = e.similar[i];
+                        const personDiv = document.createElement('div');
+                        personDiv.className = 'portrait-container';
+                        personDiv.innerHTML = `
+                            <div class="portrait-header">
+                                <p class="portrait-text"><strong>Name:</strong> ${person.name}, distance=${distance(vectorized, person.vectors).toFixed(2)}<br><p>
+                            </div>
+                            `;
+                        target.appendChild(personDiv);
+                        if(i < e.similar.length - 1) {
+                            target.appendChild(document.createElement('div')).className = 'breaker';
+                        }
                     }
                 }
             }

@@ -1,6 +1,35 @@
 {
   "questions": [
     {
+      "question": "A company overtakes individualistic freedoms and threatens government authority. What should happen?",
+      "answers": [
+        {
+          "answer": "The government should surrender authority to the company if it is more efficient.",
+          "vector": [-90, -40, 0]
+        },
+        {
+          "answer": "The cooperation follows the law, but the government should generally avoid interfering with private companies.",
+          "vector": [-70, -30, 0]
+        },
+        {
+          "answer": "The government should monitor the company and intervene only if it violates laws or harms the public.",
+          "vector": [-10, 10, 0]
+        },
+        {
+          "answer": "The government should actively regulate the company to prevent it from becoming too powerful.",
+          "vector": [30, 40, 0]
+        },
+        {
+          "answer": "The government should take strong action to limit the company's power and influence.",
+          "vector": [70, 60, 0]
+        },
+        {
+          "answer": "The government should nationalize the company to ensure it serves the public interest.",
+          "vector": [90, 80, 0]
+        }
+      ]
+    },
+    {
       "question": "A company develops technology capable of replacing a large number of workers. What should happen?",
       "answers": [
         {

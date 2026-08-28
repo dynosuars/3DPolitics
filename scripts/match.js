@@ -26,6 +26,10 @@ async function closest(vec3) {
     let closestIdeology = data.ideology || "Centralist"; // Default ideology if not found
     let closestDistance = Infinity;
 
+    if( distance([0, 0, 0], vec3) < 10 ) {
+        closestIdeology = "Centralist";
+    } 
+
     for( let i = 0; i < data.vectors.length; i++) {
         const vector = data.vectors[i];
         const dist = distance(vec3, vector.vectors);
@@ -35,9 +39,10 @@ async function closest(vec3) {
             similar.push(p);
         }
     }
-
+    
     similar.sort((a, b) => distance(vec3, a.vectors) - distance(vec3, b.vectors));
     similar.shift(); // Remove the closest one since it's already stored in p
+
     return {
         similar: similar,
         closest: p,
