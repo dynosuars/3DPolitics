@@ -106,11 +106,11 @@ const labelLib = createTextSprite('-Y (Libertarian)', '#88ff88');
 labelLib.position.set(0, -100, 15);
 scene.add(labelLib);
 
-const labelNat = createTextSprite('+Z (Nationalism)', '#8888ff');
+const labelNat = createTextSprite('+Z (Internationalism)', '#8888ff');
 labelNat.position.set(0, -10, 100);
 scene.add(labelNat);
 
-const labelInt = createTextSprite('-Z (Internationalism)', '#8888ff');
+const labelInt = createTextSprite('-Z (Nationalism)', '#8888ff');
 labelInt.position.set(0, -10, -100);
 scene.add(labelInt);
 
