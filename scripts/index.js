@@ -11,7 +11,7 @@ function configureNOW() {
     modal.classList.add('modal');
     modal.innerHTML = `
         <h2>Configure Game</h2>
-        <label for="questionCount">Number of Questions:</label>
+        <label for="questionCount">Number of Questions: (1-60, the more questions = more accurate results)</label>
         <input type="number" id="questionCount" name="questionCount" min="1" max="60" value="30">
         <label for="randomed">Randomize Questions:</label>
         <input type="checkbox" id="randomed" name="randomed" checked>
